@@ -23,3 +23,19 @@ body {
     font-size: 1.8rem; 
     margin-bottom:6px;
 }
+/* menu bar */
+.menu-bar{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:10px;}
+.menu-bar button{
+    background:#ffe4b5;color:#5c3d1e;border:2px solid #deb887;
+    padding:8px 14px;border-radius:10px;font-weight:700;cursor:pointer;
+    transition:background 0.2s, transform 0.08s;
+}
+.menu-bar button:hover{background:#f4d88d;transform:translateY(-2px);}
+
+/* page */
+.page{
+    padding:40px 16px;
+    max-width:1100px;
+    margin:auto;
+    text-align:center;
+}

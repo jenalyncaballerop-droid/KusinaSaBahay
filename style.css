@@ -39,3 +39,17 @@ body {
     margin:auto;
     text-align:center;
 }
+/* buttons */
+.primary, .secaondary, .continue-btn{
+    margin-top:20px;
+    padding:10px 20px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+    font-weight:700;
+}
+.primary{background:#8b4513;color:#fff;}
+.primary:hover{background:#ao522d;}
+.secondary{background:#f2d6a3;color:#5c3d1e;}
+.secondary:hover{background:#e8c488;}
+

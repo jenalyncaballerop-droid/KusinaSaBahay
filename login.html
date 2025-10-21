@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kusina sa Bahay - About</title>
+    <title>Kusina sa Bahay - Login</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -20,20 +20,28 @@
     </header>
 
     <div class="page">
-        <h2>About Us</h2>
-        <div class="about-text">   
-            <p>Founded as a small family kitchen, <strong>Kusina sa Bahay</strong> celebrates the flavors of Filipino home cooking.</p>
-            <p>We use local ingredients and heirloom recipes passed down through generations. Our mission is simple:</p>
-            <p>serve warm, comforting meals that bring people together.</p>
+        <h2>Login</h2>
+
+        <div class="login-card">
+            <label class="input-label">Username
+                <input type="text" name="username" placeholder="Enter username"/>
+            </label>
+
+            <label class="input-label">Password
+                <input type="password" name="password" placeholder="Enter password"/>
+            </label>
+
+            <div class="login-actions">
+                <form action="home.html">
+                    <button type="submit" class="primary">Login</button>
+                </form>
+            </div>
         </div>
-    
-        <form action="gallery.html">
-            <button type="submit" class="primary continue-btn">Continue</button>
-        </form>
     </div>
-    
+
     <footer>
-    <p>&copy 2025 Kusina sa Bahay</p>
-  </footer>
+        <p>&copy 2025 Kusina sa Bahay</p>
+    </footer>
+    
 </body>
 </html>
